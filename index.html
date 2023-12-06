@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik - Revou Project - Lisa Rahmanita</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>KATIK.</h1>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="">Luas Segitiga</a></li>
+            <li><a href="#kelilingsegitiga">Keliling Segitiga</a></li>
+           
+        </ul>
+    </nav>
+    <div class="contents">
+        <div class="row">
+            <div class="content-wrapper">
+                <img src="img/luas-segitiga.jpg" alt="" srcset="">    
+            </div>
+            <div class="content-wrapper">
+                <h1>Menghitung Luas Segitiga</h1>
+                <label for="alas">Alas</label>
+                <input type="number" id="alas" class="input">
+                <br>
+                <label for="tinggi">Tinggi</label>
+                <input type="number" id="tinggi" class="input">
+                <br>
+                <label for="luas">Luas</label>
+                <input type="number" id="luas" class="input" >
+             <div class="buttons">
+                <button value="hitung" onclick="hitungluas()" >Hitung</button>
+                <button onclick="resetluas()">Reset</button>
+             </div>
+            </div>
+        </div>
+    </div>
+    <div class="contents">
+        <div class="row">
+            <div class="content-wrapper">
+                <img src="img/kel-segitiga.jpg" alt="" srcset="">    
+            </div>
+            <div class="content-wrapper">
+                <h1 id="kelilingsegitiga">Menghitung Keliling Segitiga</h1>
+                <label for="s1">Sisi A</label>
+                <input type="number" id="s1" class="input">
+                <br>
+                <label for="s2">Sisi B</label>
+                <input type="number" id="s2" class="input">
+                <br>
+                <label for="s3">Sisi C</label>
+                <input type="number" id="s3" class="input">
+                <br>
+                <label for="keliling">Keliling</label>
+                <input type="number" id="keliling" class="input" >
+             <div class="buttons">
+                <button value="hitung" onclick="hitungkeliling()">Hitung</button>
+                <button onclick="resetkeliling()">Reset</button>
+             </div>
+            </div>
+        </div>
+    </div>
+    
+    </main>
+    
+</body>
+</html>
